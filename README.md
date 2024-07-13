@@ -4,7 +4,7 @@ Welcome to the Merge Conflict Detector repository! This machine learning project
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Architecture](#architecture)
+2. [Structure](#structure)
 3. [Classical Machine Learning approach](#classical-machine-learning-approach)
 4. [Artificial Neural Network approach](#artificial-neural-network-approach)
 5. [Setup and Installation](#setup-and-installation)
@@ -14,7 +14,7 @@ Welcome to the Merge Conflict Detector repository! This machine learning project
 ## Introduction
 The model is optimized for recall - meaning that the goal is to allow more false positives at the benefit of reducing false negatives to almost zero, or in more simple terms, to not allow any conflict to pass unnoticed, at the expense of a few false alarms which have to be checked in order to make sure it was indeed false. The benefit here is that a human will have a significantly reduced search space, instead of having to manually check everything, they will only have to check to make sure that what the model predicted to be a conflict is indeed a conflict.
 
-## Architecture
+## Structure
 Merge Conflict Detector is divided into two parts:
 1. **Classical Machine Learning approach** Built with sklearn's Support Vector Classifier for capturing non-linear relationships.
 2. **Artificial Neural Network approach:** Powered by Tensorflow with a neural network complex enough to capture patterns in the data.
