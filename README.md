@@ -1,6 +1,6 @@
 # Merge Conflicts Detector
 
-Welcome to the Merge Conflictd Detector repository! This machine learning project was designed to detect merge conflicts based on a long list of input features, such as file modifications or pull requests performed by the user.
+Welcome to the Merge Conflict Detector repository! This machine learning project was designed to detect merge conflicts based on a long list of input features, such as file modifications or pull requests performed by the user.
 
 ## Table of Contents
 1. [Introduction](#introduction)
